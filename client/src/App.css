@@ -1,0 +1,150 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 16px;
+  background: linear-gradient(135deg, #4facfe, #6a11cb);
+}
+
+.container {
+  width: 100%;
+  max-width: 420px;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 20px;
+}
+
+.search {
+  display: flex;
+  gap: 8px;
+}
+
+.search input {
+  flex: 1;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #111;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error {
+  background: rgba(255, 70, 70, 0.9);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 16px;
+}
+
+.info {
+  margin-top: 16px;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(8px);
+}
+
+.card h2 {
+  margin: 0;
+}
+
+.card img {
+  width: 90px;
+  height: 90px;
+}
+
+.temp {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.desc {
+  text-transform: capitalize;
+  margin: 4px 0 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.grid div {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.grid span {
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+.history {
+  margin-top: 24px;
+  text-align: left;
+}
+
+.history-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.history-head h3 {
+  margin: 0;
+}
+
+.clear {
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 8px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.chip {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.chip:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
